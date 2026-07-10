@@ -3,3 +3,4 @@ LABEL author="Lokeshwarrier" \
         project="dockerfile" \
         session="joindevops"    
 ENTRYPOINT ["ping", "yahoo.com"]
+CMD ["google.com"]
