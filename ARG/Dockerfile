@@ -10,7 +10,7 @@ ARG course="devops" \
 ENV course=${course} \
     trainer=${trainer}
 
-# RUN echo "the course is : ${course},  the trainer is : ${trainer}"
+RUN echo "the course is : ${course},  the trainer is : ${trainer}, version is : ${version}"
 
 
 # RUN cd /tmp
