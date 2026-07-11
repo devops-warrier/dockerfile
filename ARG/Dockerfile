@@ -5,6 +5,10 @@ LABEL author="Lokeshwarrier" \
 
 ARG course="devops" \
     trainer="sivasir"
+
+ENV course=${course} \
+    trainer=${trainer}
+    
 RUN echo "the course is : ${course},  the trainer is : ${trainer}"
 
 
