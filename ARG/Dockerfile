@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:${version: -9}
+FROM almalinux:${version:-9}
 LABEL author="Lokeshwarrier" \
         project="dockerfile" \      
     session="joindevops"
